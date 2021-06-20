@@ -1,4 +1,4 @@
-package com.java.phms.patient.search;
+package com.phms;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
