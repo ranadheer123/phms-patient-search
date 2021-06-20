@@ -23,7 +23,7 @@ public class PatientSearchController {
 		
 	@GetMapping("/patient/search")
 	public Mono<PatientInfo> getPatientInformation(){
-		System.out.println("request recieved to get single patient information...");
+		System.out.println("request recieved to get patient information from name and date of birth...");
 		PatientInfo dummy = new PatientInfo();
 		dummy.setFirstName("gagan");
 		dummy.setLastName("deka");
@@ -35,7 +35,7 @@ public class PatientSearchController {
 	
 	@GetMapping("/patient/search/name")
 	public Flux<PatientInfo> getMatchingPatientInformation(){
-		System.out.println("request recieved to get single patient information...");
+		System.out.println("request recieved to get single patient information from name...");
 		PatientInfo dummy = new PatientInfo();
 		dummy.setFirstName("gagan");
 		dummy.setLastName("deka");
